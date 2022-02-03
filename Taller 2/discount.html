@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./discount.css">
+
+    <title>Percentaje & Discount | Curso practico JS</title>
+</head>
+<body>
+    <header>
+        <figure class="logo-img">
+            <img src="./etiqueta-de-descuento.png" alt="Discount logo">
+        </figure>
+        <h1>Percentage & Discount</h1>
+        <p>Este es el segundo taller del curso practico de JavaScript.</p>
+    </header>
+
+    <section>
+        <h2>Calculate Discount:</h2>
+
+        <form action="">
+            <label for="inputPrice"></label>
+            <input type="number" name="Price" id="inputPrice" placeholder="Price $">
+
+            <label for="inputDiscount"></label>
+            <input type="number" name="Discount" id="inputDiscount" placeholder="Discount %">
+
+            <label for="inputCoupon"></label>
+            <input type="text" name="Coupon" id="inputCoupon" placeholder="Coupon %">
+
+            <button type="button" onclick="buttonPriceDiscount()">Calculate!</button>
+
+            <figure>
+                <img src="./product.jpg" alt="Foto del Producto.">
+            </figure>
+
+            <p id="resultD">Total %</p>
+            <p id="resultP">Total $</p>
+        </form>
+    </section>
+
+
+    <script src="./discount.js"></script>
+</body>
+</html>

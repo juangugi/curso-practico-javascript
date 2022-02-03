@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+* {
+    font-size: 62.5% 1rem;
+    font-family: sans-serif;
+}
+header {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    background-color: #FF5D5D;
+    padding-bottom: 0px;
+    border-radius: 0.5rem;
+    border-style: groove;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+.divCuadrado {
+    border-radius: 0.5rem;
+    border-style: groove;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+    background-color: #7A94FF;
+}
+.divTriangulo {
+    border-radius: 0.5rem;
+    border-style: groove;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+    background-color: #D3FF7A;
+}
+.triangle-item {
+    display: flex;
+    flex-direction: column;
+}
+.triangle-item button {
+    margin-top: 20px;
+}
+.divCirculo {
+    border-radius: 0.5rem;
+    border-style: groove;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+    background-color: #FFD97A;
+}
+div h2 {
+    display: flex;
+    justify-content: center;
+}
+div form {
+    display: flex;
+    justify-content: center;
+}
+div label {
+    margin-right: 8px;
+}
+div input {
+    margin-right: 8px;
+    border-radius: 4px;
+}
+div button {
+    margin-right: 8px;
+    border-radius: 4px;
+}
